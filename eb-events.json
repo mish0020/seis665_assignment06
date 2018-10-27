@@ -1,0 +1,421 @@
+{
+    "Events": [
+        {
+            "ApplicationName": "wordpress", 
+            "EnvironmentName": "wordpress-dev", 
+            "Severity": "INFO", 
+            "RequestId": "5ecc58f6-e685-4e8c-9819-b47908564aad", 
+            "Message": "terminateEnvironment completed successfully.", 
+            "EventDate": "2018-10-27T03:37:34.824Z"
+        }, 
+        {
+            "ApplicationName": "wordpress", 
+            "EnvironmentName": "wordpress-dev", 
+            "Severity": "INFO", 
+            "RequestId": "5ecc58f6-e685-4e8c-9819-b47908564aad", 
+            "Message": "Deleting SNS topic for environment wordpress-dev.", 
+            "EventDate": "2018-10-27T03:37:33.771Z"
+        }, 
+        {
+            "ApplicationName": "wordpress", 
+            "EnvironmentName": "wordpress-dev", 
+            "Severity": "INFO", 
+            "RequestId": "5ecc58f6-e685-4e8c-9819-b47908564aad", 
+            "Message": "Deleted security group named: sg-09e90d23ab798e67b", 
+            "EventDate": "2018-10-27T03:37:31.429Z"
+        }, 
+        {
+            "ApplicationName": "wordpress", 
+            "EnvironmentName": "wordpress-dev", 
+            "Severity": "INFO", 
+            "RequestId": "5ecc58f6-e685-4e8c-9819-b47908564aad", 
+            "Message": "Deleted security group named: awseb-e-ehbqinwp8b-stack-AWSEBSecurityGroup-1BF9NIXZSU4YC", 
+            "EventDate": "2018-10-27T03:37:31.396Z"
+        }, 
+        {
+            "ApplicationName": "wordpress", 
+            "EnvironmentName": "wordpress-dev", 
+            "Severity": "INFO", 
+            "RequestId": "5ecc58f6-e685-4e8c-9819-b47908564aad", 
+            "Message": "Deleted RDS database security group named: awseb-e-ehbqinwp8b-stack-awsebrdsdbsecuritygroup-1cjz7wsjbmkfn", 
+            "EventDate": "2018-10-27T03:37:31.281Z"
+        }, 
+        {
+            "ApplicationName": "wordpress", 
+            "EnvironmentName": "wordpress-dev", 
+            "Severity": "INFO", 
+            "RequestId": "5ecc58f6-e685-4e8c-9819-b47908564aad", 
+            "Message": "Deleted RDS database named: aa1py9yk0fxvysj", 
+            "EventDate": "2018-10-27T03:37:31.241Z"
+        }, 
+        {
+            "ApplicationName": "wordpress", 
+            "EnvironmentName": "wordpress-dev", 
+            "Message": "Environment health has transitioned from Unknown to Severe. Terminate in progress (running for 4 minutes). There are no instances. Auto Scaling group desired capacity is set to zero. Auto Scaling group (awseb-e-ehbqinwp8b-stack-AWSEBAutoScalingGroup-1CX74EU9B9Y38) and Elastic Load Balancer (awseb-e-e-AWSEBLoa-1RVRFQXLQYQFS) have been deleted.", 
+            "EventDate": "2018-10-27T03:32:08.675Z", 
+            "Severity": "WARN"
+        }, 
+        {
+            "ApplicationName": "wordpress", 
+            "EnvironmentName": "wordpress-dev", 
+            "Severity": "INFO", 
+            "RequestId": "5ecc58f6-e685-4e8c-9819-b47908564aad", 
+            "Message": "Deleted load balancer named: awseb-e-e-AWSEBLoa-1RVRFQXLQYQFS", 
+            "EventDate": "2018-10-27T03:30:23.147Z"
+        }, 
+        {
+            "ApplicationName": "wordpress", 
+            "EnvironmentName": "wordpress-dev", 
+            "Severity": "INFO", 
+            "RequestId": "5ecc58f6-e685-4e8c-9819-b47908564aad", 
+            "Message": "Deleted Auto Scaling launch configuration named: awseb-e-ehbqinwp8b-stack-AWSEBAutoScalingLaunchConfiguration-1X80TL9M1DIDJ", 
+            "EventDate": "2018-10-27T03:30:23.076Z"
+        }, 
+        {
+            "ApplicationName": "wordpress", 
+            "EnvironmentName": "wordpress-dev", 
+            "Message": "Removed instance [i-0e7be49f18ab6c663] from your environment.", 
+            "EventDate": "2018-10-27T03:30:08.727Z", 
+            "Severity": "INFO"
+        }, 
+        {
+            "ApplicationName": "wordpress", 
+            "EnvironmentName": "wordpress-dev", 
+            "Message": "Environment health has transitioned from Severe to Unknown. Terminate in progress (running for 2 minutes). There are no instances. Auto Scaling group desired capacity is set to zero.", 
+            "EventDate": "2018-10-27T03:30:08.727Z", 
+            "Severity": "INFO"
+        }, 
+        {
+            "ApplicationName": "wordpress", 
+            "EnvironmentName": "wordpress-dev", 
+            "Severity": "INFO", 
+            "RequestId": "5ecc58f6-e685-4e8c-9819-b47908564aad", 
+            "Message": "Deleted Auto Scaling group named: awseb-e-ehbqinwp8b-stack-AWSEBAutoScalingGroup-1CX74EU9B9Y38", 
+            "EventDate": "2018-10-27T03:30:07.635Z"
+        }, 
+        {
+            "ApplicationName": "wordpress", 
+            "EnvironmentName": "wordpress-dev", 
+            "Message": "Environment health has transitioned from Info to Severe. Terminate in progress (running for 89 seconds). None of the instances are sending data.", 
+            "EventDate": "2018-10-27T03:29:08.830Z", 
+            "Severity": "WARN"
+        }, 
+        {
+            "ApplicationName": "wordpress", 
+            "EnvironmentName": "wordpress-dev", 
+            "Message": "Environment health has transitioned from Ok to Info. Terminate in progress (running for 49 seconds).", 
+            "EventDate": "2018-10-27T03:28:08.859Z", 
+            "Severity": "INFO"
+        }, 
+        {
+            "ApplicationName": "wordpress", 
+            "EnvironmentName": "wordpress-dev", 
+            "Severity": "INFO", 
+            "RequestId": "5ecc58f6-e685-4e8c-9819-b47908564aad", 
+            "Message": "Waiting for EC2 instances to terminate. This may take a few minutes.", 
+            "EventDate": "2018-10-27T03:27:34.772Z"
+        }, 
+        {
+            "ApplicationName": "wordpress", 
+            "EnvironmentName": "wordpress-dev", 
+            "Severity": "INFO", 
+            "RequestId": "5ecc58f6-e685-4e8c-9819-b47908564aad", 
+            "Message": "Deleted Auto Scaling group policy named: arn:aws:autoscaling:us-east-1:955851341468:scalingPolicy:dcc5a0f9-174b-4a48-9aac-6f92c6325fde:autoScalingGroupName/awseb-e-ehbqinwp8b-stack-AWSEBAutoScalingGroup-1CX74EU9B9Y38:policyName/awseb-e-ehbqinwp8b-stack-AWSEBAutoScalingScaleUpPolicy-TR0C85G3JFQN", 
+            "EventDate": "2018-10-27T03:27:34.714Z"
+        }, 
+        {
+            "ApplicationName": "wordpress", 
+            "EnvironmentName": "wordpress-dev", 
+            "Severity": "INFO", 
+            "RequestId": "5ecc58f6-e685-4e8c-9819-b47908564aad", 
+            "Message": "Deleted Auto Scaling group policy named: arn:aws:autoscaling:us-east-1:955851341468:scalingPolicy:a9e38f43-6da8-4325-911b-d29e4c5d9ec0:autoScalingGroupName/awseb-e-ehbqinwp8b-stack-AWSEBAutoScalingGroup-1CX74EU9B9Y38:policyName/awseb-e-ehbqinwp8b-stack-AWSEBAutoScalingScaleDownPolicy-121KSCLLCNEXF", 
+            "EventDate": "2018-10-27T03:27:34.658Z"
+        }, 
+        {
+            "ApplicationName": "wordpress", 
+            "EnvironmentName": "wordpress-dev", 
+            "Severity": "INFO", 
+            "RequestId": "5ecc58f6-e685-4e8c-9819-b47908564aad", 
+            "Message": "Deleted CloudWatch alarm named: awseb-e-ehbqinwp8b-stack-AWSEBCloudwatchAlarmLow-NX9NA0PEUZLP ", 
+            "EventDate": "2018-10-27T03:27:34.604Z"
+        }, 
+        {
+            "ApplicationName": "wordpress", 
+            "EnvironmentName": "wordpress-dev", 
+            "Severity": "INFO", 
+            "RequestId": "5ecc58f6-e685-4e8c-9819-b47908564aad", 
+            "Message": "Deleted CloudWatch alarm named: awseb-e-ehbqinwp8b-stack-AWSEBCloudwatchAlarmHigh-QA204MA3AEIL ", 
+            "EventDate": "2018-10-27T03:27:34.507Z"
+        }, 
+        {
+            "ApplicationName": "wordpress", 
+            "EnvironmentName": "wordpress-dev", 
+            "Severity": "INFO", 
+            "RequestId": "5ecc58f6-e685-4e8c-9819-b47908564aad", 
+            "Message": "terminateEnvironment is starting.", 
+            "EventDate": "2018-10-27T03:27:17.248Z"
+        }, 
+        {
+            "ApplicationName": "wordpress", 
+            "EnvironmentName": "wordpress-dev", 
+            "Message": "Environment health has transitioned from Degraded to Ok.", 
+            "EventDate": "2018-10-27T03:25:09.057Z", 
+            "Severity": "INFO"
+        }, 
+        {
+            "ApplicationName": "wordpress", 
+            "EnvironmentName": "wordpress-dev", 
+            "Message": "Environment health has transitioned from Ok to Degraded. No data received from 1 out of 2 instances.", 
+            "EventDate": "2018-10-27T03:24:09.126Z", 
+            "Severity": "WARN"
+        }, 
+        {
+            "ApplicationName": "wordpress", 
+            "EnvironmentName": "wordpress-dev", 
+            "Message": "Removed instance [i-033768e0549adbca9] from your environment.", 
+            "EventDate": "2018-10-27T03:24:09.126Z", 
+            "Severity": "INFO"
+        }, 
+        {
+            "ApplicationName": "wordpress", 
+            "EnvironmentName": "wordpress-dev", 
+            "Severity": "INFO", 
+            "RequestId": "58ad3120-4492-4250-b783-d1e6970d9feb", 
+            "Message": "Environment update completed successfully.", 
+            "EventDate": "2018-10-27T03:22:25.548Z"
+        }, 
+        {
+            "ApplicationName": "wordpress", 
+            "EnvironmentName": "wordpress-dev", 
+            "Severity": "INFO", 
+            "RequestId": "58ad3120-4492-4250-b783-d1e6970d9feb", 
+            "Message": "Successfully deployed new configuration to environment.", 
+            "EventDate": "2018-10-27T03:22:25.450Z"
+        }, 
+        {
+            "ApplicationName": "wordpress", 
+            "EnvironmentName": "wordpress-dev", 
+            "Severity": "INFO", 
+            "RequestId": "58ad3120-4492-4250-b783-d1e6970d9feb", 
+            "Message": "Updating environment wordpress-dev's configuration settings.", 
+            "EventDate": "2018-10-27T03:21:33.066Z"
+        }, 
+        {
+            "ApplicationName": "wordpress", 
+            "EnvironmentName": "wordpress-dev", 
+            "Severity": "INFO", 
+            "RequestId": "58ad3120-4492-4250-b783-d1e6970d9feb", 
+            "Message": "Environment update is starting.", 
+            "EventDate": "2018-10-27T03:21:25.276Z"
+        }, 
+        {
+            "ApplicationName": "wordpress", 
+            "EnvironmentName": "wordpress-dev", 
+            "Message": "Environment health has transitioned from Pending to Ok. Initialization completed 1 second ago and took 9 minutes.", 
+            "EventDate": "2018-10-27T03:02:10.546Z", 
+            "Severity": "INFO"
+        }, 
+        {
+            "ApplicationName": "wordpress", 
+            "EnvironmentName": "wordpress-dev", 
+            "Severity": "INFO", 
+            "RequestId": "75c84838-7a90-42c2-9b10-72aa568e769e", 
+            "Message": "Successfully launched environment: wordpress-dev", 
+            "EventDate": "2018-10-27T03:01:29.003Z"
+        }, 
+        {
+            "ApplicationName": "wordpress", 
+            "EnvironmentName": "wordpress-dev", 
+            "Severity": "INFO", 
+            "RequestId": "75c84838-7a90-42c2-9b10-72aa568e769e", 
+            "Message": "Application available at wordpress-dev.p23abczibg.us-east-1.elasticbeanstalk.com.", 
+            "EventDate": "2018-10-27T03:01:28.514Z"
+        }, 
+        {
+            "ApplicationName": "wordpress", 
+            "EnvironmentName": "wordpress-dev", 
+            "Severity": "INFO", 
+            "RequestId": "75c84838-7a90-42c2-9b10-72aa568e769e", 
+            "Message": "Created CloudWatch alarm named: awseb-e-ehbqinwp8b-stack-AWSEBCloudwatchAlarmHigh-QA204MA3AEIL", 
+            "EventDate": "2018-10-27T03:01:13.147Z"
+        }, 
+        {
+            "ApplicationName": "wordpress", 
+            "EnvironmentName": "wordpress-dev", 
+            "Severity": "INFO", 
+            "RequestId": "75c84838-7a90-42c2-9b10-72aa568e769e", 
+            "Message": "Created CloudWatch alarm named: awseb-e-ehbqinwp8b-stack-AWSEBCloudwatchAlarmLow-NX9NA0PEUZLP", 
+            "EventDate": "2018-10-27T03:01:13.060Z"
+        }, 
+        {
+            "ApplicationName": "wordpress", 
+            "EnvironmentName": "wordpress-dev", 
+            "Message": "Added instance [i-0e7be49f18ab6c663] to your environment.", 
+            "EventDate": "2018-10-27T03:01:10.598Z", 
+            "Severity": "INFO"
+        }, 
+        {
+            "ApplicationName": "wordpress", 
+            "EnvironmentName": "wordpress-dev", 
+            "Severity": "INFO", 
+            "RequestId": "75c84838-7a90-42c2-9b10-72aa568e769e", 
+            "Message": "Created Auto Scaling group policy named: arn:aws:autoscaling:us-east-1:955851341468:scalingPolicy:a9e38f43-6da8-4325-911b-d29e4c5d9ec0:autoScalingGroupName/awseb-e-ehbqinwp8b-stack-AWSEBAutoScalingGroup-1CX74EU9B9Y38:policyName/awseb-e-ehbqinwp8b-stack-AWSEBAutoScalingScaleDownPolicy-121KSCLLCNEXF", 
+            "EventDate": "2018-10-27T03:00:57.717Z"
+        }, 
+        {
+            "ApplicationName": "wordpress", 
+            "EnvironmentName": "wordpress-dev", 
+            "Severity": "INFO", 
+            "RequestId": "75c84838-7a90-42c2-9b10-72aa568e769e", 
+            "Message": "Created Auto Scaling group policy named: arn:aws:autoscaling:us-east-1:955851341468:scalingPolicy:dcc5a0f9-174b-4a48-9aac-6f92c6325fde:autoScalingGroupName/awseb-e-ehbqinwp8b-stack-AWSEBAutoScalingGroup-1CX74EU9B9Y38:policyName/awseb-e-ehbqinwp8b-stack-AWSEBAutoScalingScaleUpPolicy-TR0C85G3JFQN", 
+            "EventDate": "2018-10-27T03:00:57.683Z"
+        }, 
+        {
+            "ApplicationName": "wordpress", 
+            "EnvironmentName": "wordpress-dev", 
+            "Severity": "INFO", 
+            "RequestId": "75c84838-7a90-42c2-9b10-72aa568e769e", 
+            "Message": "Waiting for EC2 instances to launch. This may take a few minutes.", 
+            "EventDate": "2018-10-27T03:00:57.640Z"
+        }, 
+        {
+            "ApplicationName": "wordpress", 
+            "EnvironmentName": "wordpress-dev", 
+            "Severity": "INFO", 
+            "RequestId": "75c84838-7a90-42c2-9b10-72aa568e769e", 
+            "Message": "Created Auto Scaling group named: awseb-e-ehbqinwp8b-stack-AWSEBAutoScalingGroup-1CX74EU9B9Y38", 
+            "EventDate": "2018-10-27T03:00:57.598Z"
+        }, 
+        {
+            "ApplicationName": "wordpress", 
+            "EnvironmentName": "wordpress-dev", 
+            "Message": "Added instance [i-033768e0549adbca9] to your environment.", 
+            "EventDate": "2018-10-27T03:00:10.652Z", 
+            "Severity": "INFO"
+        }, 
+        {
+            "ApplicationName": "wordpress", 
+            "EnvironmentName": "wordpress-dev", 
+            "Severity": "INFO", 
+            "RequestId": "75c84838-7a90-42c2-9b10-72aa568e769e", 
+            "Message": "Created RDS database named: aa1py9yk0fxvysj", 
+            "EventDate": "2018-10-27T02:59:24.225Z"
+        }, 
+        {
+            "ApplicationName": "wordpress", 
+            "EnvironmentName": "wordpress-dev", 
+            "Message": "Environment health has transitioned to Pending. Initialization in progress (running for 24 seconds). There are no instances.", 
+            "EventDate": "2018-10-27T02:53:11.149Z", 
+            "Severity": "INFO"
+        }, 
+        {
+            "ApplicationName": "wordpress", 
+            "EnvironmentName": "wordpress-dev", 
+            "Severity": "INFO", 
+            "RequestId": "75c84838-7a90-42c2-9b10-72aa568e769e", 
+            "Message": "Creating RDS database named: aa1py9yk0fxvysj. This may take a few minutes.", 
+            "EventDate": "2018-10-27T02:53:01.193Z"
+        }, 
+        {
+            "ApplicationName": "wordpress", 
+            "EnvironmentName": "wordpress-dev", 
+            "Severity": "INFO", 
+            "RequestId": "75c84838-7a90-42c2-9b10-72aa568e769e", 
+            "Message": "Created RDS database security group named: awseb-e-ehbqinwp8b-stack-awsebrdsdbsecuritygroup-1cjz7wsjbmkfn", 
+            "EventDate": "2018-10-27T02:52:44.913Z"
+        }, 
+        {
+            "ApplicationName": "wordpress", 
+            "EnvironmentName": "wordpress-dev", 
+            "Severity": "INFO", 
+            "RequestId": "75c84838-7a90-42c2-9b10-72aa568e769e", 
+            "Message": "Created Auto Scaling launch configuration named: awseb-e-ehbqinwp8b-stack-AWSEBAutoScalingLaunchConfiguration-1X80TL9M1DIDJ", 
+            "EventDate": "2018-10-27T02:52:44.871Z"
+        }, 
+        {
+            "ApplicationName": "wordpress", 
+            "EnvironmentName": "wordpress-dev", 
+            "Severity": "INFO", 
+            "RequestId": "75c84838-7a90-42c2-9b10-72aa568e769e", 
+            "Message": "Created security group named: awseb-e-ehbqinwp8b-stack-AWSEBSecurityGroup-1BF9NIXZSU4YC", 
+            "EventDate": "2018-10-27T02:52:44.814Z"
+        }, 
+        {
+            "ApplicationName": "wordpress", 
+            "EnvironmentName": "wordpress-dev", 
+            "Severity": "INFO", 
+            "RequestId": "75c84838-7a90-42c2-9b10-72aa568e769e", 
+            "Message": "Created load balancer named: awseb-e-e-AWSEBLoa-1RVRFQXLQYQFS", 
+            "EventDate": "2018-10-27T02:52:44.743Z"
+        }, 
+        {
+            "ApplicationName": "wordpress", 
+            "EnvironmentName": "wordpress-dev", 
+            "Severity": "INFO", 
+            "RequestId": "75c84838-7a90-42c2-9b10-72aa568e769e", 
+            "Message": "Created security group named: sg-09e90d23ab798e67b", 
+            "EventDate": "2018-10-27T02:52:29.316Z"
+        }, 
+        {
+            "ApplicationName": "wordpress", 
+            "EnvironmentName": "wordpress-dev", 
+            "Severity": "INFO", 
+            "RequestId": "75c84838-7a90-42c2-9b10-72aa568e769e", 
+            "Message": "Using elasticbeanstalk-us-east-1-955851341468 as Amazon S3 storage bucket for environment data.", 
+            "EventDate": "2018-10-27T02:52:00.162Z"
+        }, 
+        {
+            "ApplicationName": "wordpress", 
+            "EnvironmentName": "wordpress-dev", 
+            "Severity": "INFO", 
+            "RequestId": "75c84838-7a90-42c2-9b10-72aa568e769e", 
+            "Message": "createEnvironment is starting.", 
+            "EventDate": "2018-10-27T02:51:58.282Z"
+        }, 
+        {
+            "ApplicationName": "wordpress", 
+            "VersionLabel": "app-309e-181027_025155", 
+            "Severity": "INFO", 
+            "RequestId": "77ff928a-2376-4f36-9839-e7475e659430", 
+            "Message": "createApplicationVersion completed successfully.", 
+            "EventDate": "2018-10-27T02:51:57.025Z"
+        }, 
+        {
+            "ApplicationName": "wordpress", 
+            "VersionLabel": "app-309e-181027_025155", 
+            "Severity": "INFO", 
+            "RequestId": "77ff928a-2376-4f36-9839-e7475e659430", 
+            "Message": "Created new Application Version: app-309e-181027_025155", 
+            "EventDate": "2018-10-27T02:51:56.936Z"
+        }, 
+        {
+            "ApplicationName": "wordpress", 
+            "VersionLabel": "app-309e-181027_025155", 
+            "Severity": "INFO", 
+            "RequestId": "77ff928a-2376-4f36-9839-e7475e659430", 
+            "Message": "createApplicationVersion is starting.", 
+            "EventDate": "2018-10-27T02:51:56.872Z"
+        }, 
+        {
+            "ApplicationName": "wordpress", 
+            "Message": "createApplication completed successfully.", 
+            "Severity": "INFO", 
+            "EventDate": "2018-10-27T02:40:47.326Z", 
+            "RequestId": "c33e12c8-2ca0-4894-9cfc-a3ccd3ac5064"
+        }, 
+        {
+            "ApplicationName": "wordpress", 
+            "Message": "Created new Application: wordpress", 
+            "Severity": "INFO", 
+            "EventDate": "2018-10-27T02:40:47.193Z", 
+            "RequestId": "c33e12c8-2ca0-4894-9cfc-a3ccd3ac5064"
+        }, 
+        {
+            "ApplicationName": "wordpress", 
+            "Message": "createApplication is starting.", 
+            "Severity": "INFO", 
+            "EventDate": "2018-10-27T02:40:46.813Z", 
+            "RequestId": "c33e12c8-2ca0-4894-9cfc-a3ccd3ac5064"
+        }
+    ]
+}
